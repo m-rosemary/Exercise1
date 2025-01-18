@@ -1,5 +1,4 @@
 HELP.md
-.mvn/wrapper
 target/
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -35,3 +34,4 @@ build/
 ### VS Code ###
 .vscode/
 *.log
+/.mvn/
