@@ -33,7 +33,4 @@ build/
 
 ### VS Code ###
 .vscode/
-*.log
-.mvn
 /.mvn/
-mvnw
