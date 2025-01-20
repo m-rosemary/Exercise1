@@ -9,7 +9,6 @@ This project is a simple Spring Boot application created from scratch. It demons
 - Demonstration of `@ResponseBody` annotation for returning data.
 - HTTP request testing.
 
-## Getting Started
 
 ### Prerequisites
 
@@ -17,28 +16,6 @@ This project is a simple Spring Boot application created from scratch. It demons
 - Maven or Gradle
 - An IDE such as IntelliJ IDEA or Eclipse
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd <project-directory>
-   ```
-3. Build the project using Maven:
-   ```bash
-   mvn clean install
-   ```
-
-### Running the Application
-
-1. Start the Spring Boot application:
-   ```bash
-   mvn spring-boot:run
-   ```
-2. The application will run on `http://localhost:8080` by default.
 
 ### Testing the Controller
 
@@ -46,7 +23,7 @@ This project is a simple Spring Boot application created from scratch. It demons
   ```
   http://localhost:8080/greeting
   ```
-- The response should return a simple message (e.g., "Hello, World!").
+- The response should return message (e.g., "Hello, World!").
 
 ## Example Code
 
@@ -72,7 +49,7 @@ public class HelloController {
 ### Explanation
 
 - `@RestController`: Combines `@Controller` and `@ResponseBody` to simplify RESTful web service development.
-- `@GetMapping`: Maps HTTP GET requests to the `sayHello` method.
+- `@GetMapping`: Maps HTTP GET requests to the `HelloController` method.
 - `@ResponseBody`: Ensures the return value is written directly to the HTTP response body.
 
 ## Technologies Used
