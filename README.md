@@ -21,9 +21,9 @@ This project is a simple Spring Boot application created from scratch. It demons
 
 - Send an HTTP GET request to the endpoint:
   ```
-  http://localhost:8080/greeting
+  //http://localhost:8080/greeting?name=Vistula
   ```
-- The response should return message (e.g., "Hello, World!").
+- The response should return message (e.g., "Hello, Vistula!") and img.
 
 ## Example Code
 
