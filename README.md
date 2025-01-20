@@ -21,29 +21,18 @@ This project is a simple Spring Boot application created from scratch. It demons
 
 - Send an HTTP GET request to the endpoint:
   ```
+  //http://localhost:8080
+  ```
+- The response should return message (e.g., "Hello Vistula, in my first Spring controller.").
+
+
+- Send an HTTP GET request to the endpoint:
+  ```
   //http://localhost:8080/greeting?name=Vistula
   ```
 - The response should return message (e.g., "Hello, Vistula!") and img.
 
-## Example Code
 
-### Controller
-
-```java
-@Controller
-//@RestController
-public class HelloController {
-
-    @GetMapping(value = "/")
-    public String hello() { return "Hello Vistula, in my first Spring controller."; }
-
-    @GetMapping(value = "/greeting")
-    public String greeting(@RequestParam(name="name", required = false, defaultValue = "World") String name, Model model) {
-        model.addAttribute("name", name);
-        return "greeting";
-    }
-    //http://localhost:8080/greeting
-}
 ```
 
 ### Explanation
