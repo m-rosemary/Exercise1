@@ -19,12 +19,6 @@ This project is a simple Spring Boot application created from scratch. It demons
 
 ### Testing the Controller
 
-- Send an HTTP GET request to the endpoint:
-  ```
-  //http://localhost:8080
-  ```
-- The response should return message (e.g., "Hello Vistula, in my first Spring controller.").
-
 
 - Send an HTTP GET request to the endpoint:
   ```
